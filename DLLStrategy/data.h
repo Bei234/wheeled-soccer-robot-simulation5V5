@@ -50,7 +50,7 @@ inline static T Angle(const T x1, const T y1, const T x2, const T y2)//Çó»úÆ÷ÈËµ
 template<typename T>
 inline static T Angle(T x1, T y1)//Çó»úÆ÷ÈËµÄ½Ç¶È
 {
-    if (x1 = 0) {
+    if (x1 == 0) {
         x1 = 0.0001f;
     }
     return atan(y1 / x1) * 180 / PI;
